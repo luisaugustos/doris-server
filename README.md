@@ -38,4 +38,4 @@ En los últimos años, las tareas de mantenimiento en las vías de transporte de
 ---
 
 > GitHub [@luisaugustos](https://github.com/luisaugustos)  · 
-> Twitter [@amit_merchant](https://twitter.com/o_luisaugusto)
+> Twitter [@o_luisaugusto](https://twitter.com/o_luisaugusto)
