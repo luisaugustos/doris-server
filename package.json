@@ -9,10 +9,10 @@
   },
   "scripts": {
     "generate-build-version": "node generate-build-version",
-    "serve": "vue-cli-service serve",
-    "build": "npm run generate-build-version && vue-cli-service build",
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && npm run generate-build-version && vue-cli-service build",
     "format": "prettier --write --config .prettierrc \"**/*.js\"",
-    "lint": "vue-cli-service lint --fix",
+    "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint --fix",
     "test:e2e": "vue-cli-service test:e2e --mode e2e",
     "test:unit": "vue-cli-service test:unit",
     "remark": "remark . -o",
